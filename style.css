@@ -1,0 +1,46 @@
+body{
+  background-color: aliceblue;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: 1px 1px black;
+}
+
+.flipper{
+  display: inline-block;
+}
+
+.hex{
+  display: inline-block;
+}
+
+.nav_text{
+  color: tomato;
+  text-decoration: none;
+}
+
+.bg_color{
+  background-color: black;
+  color: white;
+  width: max-content;
+  display: flex;
+  margin: 170px auto 50px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#js_button{
+  width: max-content;
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
